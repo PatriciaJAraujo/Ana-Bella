@@ -1,72 +1,73 @@
-@import url('https://fonts.googleapis.com/css2? family= Edu+SA+Beginner:wght@400;700 & display=swap');
+@import url("https://fonts.googleapis.com/css2? family= Edu+SA+Beginner:wght@400;700 & display=swap");
 
 body {
-    /* background-color: rgba(243, 192, 216, 0.897); */
-    background: linear-gradient(to top,rgba(243, 192, 216, 0.897),rgba(122, 26, 71, 0.897));
-    font-family: 'Edu SA Beginner', cursive;
-    
-
+  background-color: #d2d2c1;
+  /* background: linear-gradient(to top,rgba(243, 192, 216, 0.897),rgba(122, 26, 71, 0.897));*/
+  font-family: "Edu SA Beginner", cursive;
 }
 
 a {
-    text-decoration: none;
-    color: #5c585b;
+  text-decoration: none;
+  color: #5c585b;
 }
 
 p {
-    padding: 15px;
+  padding: 15px;
 }
 
 .container {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
 }
 
 .auxiliar {
-    width: 900px;
-    -webkit-box-shadow: -2px 3px 15px -1px #000000;
-    box-shadow: -2px 3px 15px -1px #000000;
+  width: 900px;
+  -webkit-box-shadow: -2px 3px 15px -1px #000000;
+  box-shadow: -2px 3px 15px -1px #000000;
 }
 
 .nav {
-    background-color: #d2d2d2c1;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    width: 900px;
-    text-align: center;
-    color: #5c585b;
+  background-color: #d2d2d2c1;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 900px;
+  text-align: center;
+  color: #5c585b;
 }
 
 li {
-    list-style-type: none;
-    display: inline-block;
-    margin-left: 5px;
-    text-transform: uppercase;
-    font-weight: bold;
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .conteudo {
-    width: 860px;
-    background-color: white;
-    padding: 20px;
+  width: 860px;
+  background-color: white;
+  padding: 20px;
 }
 
 .titulo {
-    text-align: center;
-    color: #5c585b;
+  text-align: center;
+  color: #5c585b;
 }
-.footer {
-    text-align: center;
 
+.footer {
+  text-align: center;
 }
 
 .imagens {
-    text-align: center;
-    
+  text-align: center;
 }
+
 .img-border {
-    border: 8px solid rgba(243, 192, 216, 0.897);
+  border: 8px solid #d2d2c1;
 }
-   
+
+.espaco {
+  padding: 50px;
+}
